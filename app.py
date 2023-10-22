@@ -18,7 +18,7 @@ def run(query, file, temperature, Chain, chunk_size, chunk_overlap, clear_histor
         history = []
         return "", ""  # return empty strings if we're just clearing history
 
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "INSERT OPEN AI API KEY"
    
     loader = PyPDFLoader(file.name)
     documents = loader.load()
